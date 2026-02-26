@@ -52,8 +52,9 @@ view: dash1_calvisano {
     sql: ${TABLE}.Misura ;;
   }
   dimension: ncolata {
-    type: number
-    sql: ${TABLE}.NColata ;;
+    type: string
+    sql: cast(${TABLE}.NColata as string) ;;
+
   }
   dimension: odp {
     type: number
