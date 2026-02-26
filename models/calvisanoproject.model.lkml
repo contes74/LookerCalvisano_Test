@@ -10,3 +10,4 @@ datagroup: calvisanoproject_default_datagroup {
 
 persist_with: calvisanoproject_default_datagroup
 
+explore: dash1_calvisano {}
